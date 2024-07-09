@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TerrainDeformer : MonoBehaviour
 {
-    public Terrain t;
+    Terrain t;
     // Blend the two terrain textures according to the steepness of
     // the slope at each point.
     void Start()
